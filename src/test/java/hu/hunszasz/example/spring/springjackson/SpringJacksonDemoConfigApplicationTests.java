@@ -34,9 +34,8 @@ class SpringJacksonDemoConfigApplicationTests {
         assertEquals("""
                 {
                   "anInt" : 42,
-                  "text" : "Ez egy teszt objektum",
-                  "localDateTime" : [ 2023, 4, 6, 19, 30, 40 ],
-                  "aboolean" : false
+                  "aboolean" : false,
+                  "localDateTime" : "2023.04.06 19:30"
                 }""", jsonString);
     }
 
